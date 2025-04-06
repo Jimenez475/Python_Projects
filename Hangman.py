@@ -1,6 +1,6 @@
 # TITLE : Hangman
 #
-# DESCRIPTION : Guess a word from a list of hundreds!
+# DESCRIPTION : Guess a word from a list of hundreds! (be sure to download the wordlist associated with this script)
 #
 # 04/04/25
 
