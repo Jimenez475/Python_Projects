@@ -97,7 +97,7 @@ def generate_hangman():
 def prompt():
     global chosen_letter, chosen_word, hidden_word, list_of_correct_letters, attempts,list_of_incorrect_letters
 
-    os.system("cls")
+    os.system('cls' if os.name == 'nt' else 'clear')
     print(f"Attempts left : {attempts} | Score : {score}")
     print("")
     generate_hangman()
